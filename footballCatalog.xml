@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<catalog>
+  <leagues>
+    <league id="r1">Висша лига</league>
+  </leagues>
+
+  <clubs>
+    <club>
+      <name>1936</name>
+    </club>
+  </clubs>
+
+    <player id="w1">
+      <name>HUJif</name>
+      <age>78</age>
+    </player>
+   
+</catalog>
