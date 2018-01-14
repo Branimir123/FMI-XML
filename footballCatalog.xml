@@ -1,19 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<catalog>
+<catalog xmlns="https://www.w3schools.com" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="schema.xsd">
+
   <leagues>
-    <league id="r1">Висша лига</league>
+    <league id="l1">Висша лига</league>
   </leagues>
 
   <clubs>
-    <club>
-      <name>1936</name>
+	<club id="c1">
+      <name>Челси</name>
+	  <year_established>1905</year_established>
+	  <league league_id="l1">Висша лига</league>
+	  <league_thophys>3532</league_thophys>
+	  <owner></owner>
     </club>
   </clubs>
 
-    <player id="w1">
-      <name>HUJif</name>
-      <age>78</age>
-    </player>
-   
+	<players>
+		<player id="p1">
+		  <name>David Luiz</name>
+		  <number>4</number>
+		  <club club_id="c1"></club>
+		  <age>78</age>
+		</player>
+	</players>
+	
 </catalog>
