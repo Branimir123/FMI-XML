@@ -7,7 +7,8 @@
 	<catalog>
 	  <leagues>
 		<league id="l1">Premier League</league>
-		<league id="l2"> Primera División (La Liga)</league>
+		<league id="l2">Primera División (La Liga)</league>
+		<league id="l3">First Professional Football League</league>
 	  </leagues>
 
 	  <clubs>
@@ -53,6 +54,21 @@
 		  <league league_id="l2">La Liga</league>
 		  <league_thophys>33</league_thophys>
 		  <owner>Registered association</owner>
+		</club>
+
+		<club id="c7" player_id="p31 p32 p33">
+		  <name>CSKA</name>
+		  <year_established>1948</year_established>
+		  <league league_id="l3">First Professional Football League</league>
+		  <league_thophys>31</league_thophys>
+		  <owner>Grisha Ganchev</owner>
+		</club>
+			<club id="c8" player_id="p34 p35 p36">
+		  <name>Levski</name>
+		  <year_established>1914</year_established>
+		  <league league_id="l3">First Professional Football League</league>
+		  <league_thophys>26</league_thophys>
+		  <owner>Spas Rusev</owner>
 		</club>
 	  </clubs>
 	
@@ -185,31 +201,31 @@
 			</player>
 
 			<!-- Barcelona players-->
-			<player id="p16">
+			<player id="p21">
 			  <name>Lionel Messi</name>
 			  <number>10</number>
 			  <club club_id="c5"></club>
 			  <age>30</age>
 			</player>
-			<player id="p17">
+			<player id="p22">
 			  <name>Andrés Iniesta</name>
 			  <number>8</number>
 			  <club club_id="c5"></club>
 			  <age>33</age>
 			</player>
-			<player id="p18">
+			<player id="p23">
 			  <name>Luis Suárez</name>
 			  <number>9</number>
 			  <club club_id="c5"></club>
 			  <age>30</age>
 			</player>
-			<player id="p19">
+			<player id="p24">
 			  <name>Gerard Piqu</name>
 			  <number>3</number>
 			  <club club_id="c5"></club>
 			  <age>30</age>
 			</player>
-				<player id="p20">
+				<player id="p25">
 			  <name>Sergio Busquets</name>
 			  <number>5</number>
 			  <club club_id="c5"></club>
@@ -217,34 +233,75 @@
 			</player>
 
 			<!-- Real Madrid players-->
-			<player id="p16">
+			<player id="p25">
 			  <name>Cristiano Ronaldo </name>
 			  <number>7</number>
 			  <club club_id="c6"></club>
 			  <age>32</age>
 			</player>
-			<player id="p17">
+			<player id="p27">
 			  <name>Karim Benzema</name>
 			  <number>9</number>
 			  <club club_id="c6"></club>
 			  <age>30</age>
 			</player>
-			<player id="p18">
+			<player id="p28">
 			  <name>Luka Modrić</name>
 			  <number>10</number>
 			  <club club_id="c6"></club>
 			  <age>32</age>
 			</player>
-			<player id="p19">
+			<player id="p29">
 			  <name>Marcelo</name>
 			  <number>12</number>
 			  <club club_id="c6"></club>
 			  <age>29</age>
 			</player>
-				<player id="p20">
+				<player id="p30">
 			  <name>Casemiro</name>
 			  <number>14</number>
 			  <club club_id="c6"></club>
 			  <age>25</age>
 			</player>
+
+			<!-- CSKA players-->
+			<player id="p31">
+			  <name>Fernando Karanga</name>
+			  <number>9</number>
+			  <club club_id="c7"></club>
+			  <age>26</age>
+			</player>
+			<player id="p32">
+			  <name>Nikolay Bodurov</name>
+			  <number>5</number>
+			  <club club_id="c7"></club>
+			  <age>31</age>
+			</player>
+			<player id="p33">
+			  <name>Kiril Despodov</name>
+			  <number>19</number>
+			  <club club_id="c7"></club>
+			  <age>21</age>
+			</player>
+
+			<!-- Levski players-->
+			<player id="p34">
+			  <name>Junior Mapuku</name>
+			  <number>10</number>
+			  <club club_id="c7"></club>
+			  <age>28</age>
+			</player>
+			<player id="p35">
+			  <name>Jordi Gómez</name>
+			  <number>13</number>
+			  <club club_id="c7"></club>
+			  <age>32</age>
+			</player>
+			<player id="p36">
+			  <name>David Jablonský</name>
+			  <number>28</number>
+			  <club club_id="c7"></club>
+			  <age>26</age>
+			</player>
+
 	</catalog>
