@@ -7,6 +7,7 @@
 	<catalog>
 	  <leagues>
 		<league id="l1">Premier League</league>
+		<league id="l2"> Primera División (La Liga)</league>
 	  </leagues>
 
 	  <clubs>
@@ -30,6 +31,28 @@
 		  <league league_id="l1">Premier League</league>
 		  <league_thophys>13</league_thophys>
 		  <owner>Arsenal Holding plc</owner>
+		</club>
+		<club id="c4" player_id="p16 p17 p18 p19 p20">
+		  <name>Manchester City</name>
+		  <year_established>1880</year_established>
+		  <league league_id="l1">Premier League</league>
+		  <league_thophys>2</league_thophys>
+		  <owner>Owner	City Football Group</owner>
+		</club>
+
+		<club id="c5" player_id="p21 p22 p23 p24 p25">
+		  <name>Barcelona</name>
+		  <year_established>1899</year_established>
+		  <league league_id="l2">La Liga</league>
+		  <league_thophys>24</league_thophys>
+		  <owner>Registered association</owner>
+		</club>
+		<club id="c6" player_id="p26 p27 p28 p29 p30">
+		  <name>Real Madrid</name>
+		  <year_established>1902</year_established>
+		  <league league_id="l2">La Liga</league>
+		  <league_thophys>33</league_thophys>
+		  <owner>Registered association</owner>
 		</club>
 	  </clubs>
 	
@@ -97,35 +120,131 @@
 			  <age>22</age>
 			</player>
 
-				<!-- Arsenal players-->
-			<player id="p6">
+			<!-- Arsenal players-->
+			<player id="p11">
 			  <name>Alexis Sánchez</name>
 			  <number>7</number>
 			  <club club_id="c3"></club>
 			  <age>29</age>
 			</player>
-			<player id="p7">
+			<player id="p12">
 			  <name>Aaron Ramsey</name>
 			  <number>8</number>
 			  <club club_id="c3"></club>
 			  <age>27</age>
 			</player>
-			<player id="p8">
+			<player id="p13">
 			  <name>Mesut Özil</name>
 			  <number>11</number>
 			  <club club_id="c3"></club>
 			  <age>29</age>
 			</player>
-			<player id="p9">
+			<player id="p14">
 			  <name>Theo Walcott</name>
 			  <number>14</number>
 			  <club club_id="c3"></club>
 			  <age>28</age>
 			</player>
-				<player id="p10">
+				<player id="p15">
 			  <name>Héctor Bellerín</name>
 			  <number>24</number>
 			  <club club_id="c3"></club>
 			  <age>22</age>
+			</player>
+
+			<!-- Manchester City players-->
+			<player id="p16">
+			  <name>Claudio Bravo</name>
+			  <number>1</number>
+			  <club club_id="c4"></club>
+			  <age>34</age>
+			</player>
+			<player id="p17">
+			  <name>Raheem Sterling</name>
+			  <number>7</number>
+			  <club club_id="c4"></club>
+			  <age>23</age>
+			</player>
+			<player id="p18">
+			  <name>Sergio Agüero</name>
+			  <number>10</number>
+			  <club club_id="c4"></club>
+			  <age>29</age>
+			</player>
+			<player id="p19">
+			  <name>Kevin De Bruyne</name>
+			  <number>17</number>
+			  <club club_id="c4"></club>
+			  <age>26</age>
+			</player>
+				<player id="p20">
+			  <name>David Silva</name>
+			  <number>21</number>
+			  <club club_id="c4"></club>
+			  <age>32</age>
+			</player>
+
+			<!-- Barcelona players-->
+			<player id="p16">
+			  <name>Lionel Messi</name>
+			  <number>10</number>
+			  <club club_id="c5"></club>
+			  <age>30</age>
+			</player>
+			<player id="p17">
+			  <name>Andrés Iniesta</name>
+			  <number>8</number>
+			  <club club_id="c5"></club>
+			  <age>33</age>
+			</player>
+			<player id="p18">
+			  <name>Luis Suárez</name>
+			  <number>9</number>
+			  <club club_id="c5"></club>
+			  <age>30</age>
+			</player>
+			<player id="p19">
+			  <name>Gerard Piqu</name>
+			  <number>3</number>
+			  <club club_id="c5"></club>
+			  <age>30</age>
+			</player>
+				<player id="p20">
+			  <name>Sergio Busquets</name>
+			  <number>5</number>
+			  <club club_id="c5"></club>
+			  <age>29</age>
+			</player>
+
+			<!-- Real Madrid players-->
+			<player id="p16">
+			  <name>Cristiano Ronaldo </name>
+			  <number>7</number>
+			  <club club_id="c6"></club>
+			  <age>32</age>
+			</player>
+			<player id="p17">
+			  <name>Karim Benzema</name>
+			  <number>9</number>
+			  <club club_id="c6"></club>
+			  <age>30</age>
+			</player>
+			<player id="p18">
+			  <name>Luka Modrić</name>
+			  <number>10</number>
+			  <club club_id="c6"></club>
+			  <age>32</age>
+			</player>
+			<player id="p19">
+			  <name>Marcelo</name>
+			  <number>12</number>
+			  <club club_id="c6"></club>
+			  <age>29</age>
+			</player>
+				<player id="p20">
+			  <name>Casemiro</name>
+			  <number>14</number>
+			  <club club_id="c6"></club>
+			  <age>25</age>
 			</player>
 	</catalog>
