@@ -11,3 +11,15 @@ body {
 ul {
     list-style-type: none;
 }
+
+.single-team {
+    padding: 35px;
+    background-color: rgba(33,33,33,0.1);
+    margin-top: 10px;
+    border: 1px solid black;
+}
+
+h2 {
+    margin-left: 15px;
+    margin-top: 35px;  
+}

@@ -4,10 +4,10 @@
     <xsl:template match="/">
         <html>
             <head>
-                <title>Футболни отбори</title>
+                <title>Football teams</title>
             </head>
             <body>
-                <h1>Футболни отбори</h1>
+                <h1>Football teams</h1>
                 <xsl:apply-templates select="catalog"/>
             </body>
         </html>
@@ -22,22 +22,24 @@
                 </tr>
                 <xsl:for-each select="../../clubs/club/league[@league_id=$league_id]">
                     <tr>
+                        <div class="single-team">
                         <h4><xsl:value-of select='../name'/></h4>
                         <xsl:variable name="current_id" select='../@id'/>
                           <!-- <img style="max-width: 200px; height:auto;" src="./images/{$current_id}"/> -->
                         <ul>
-                            <li>Година на основаване: <xsl:value-of select='../year_established'/></li>
+                            <li>Founded: <xsl:value-of select='../year_established'/></li>
                         </ul>
                         <xsl:variable name="player_ids" select='../@player_id'/>
-                          <h4><small>Играчи:</small></h4>
+                          <h4><small>Players:</small></h4>
                           <ul>
                           <xsl:for-each select="../../../player">
                             <xsl:choose>
                               <xsl:when test="contains($player_ids, @id)">
                                 <li><xsl:value-of select='./type'/>
                                     <ul>
-                                      <li>Име: <xsl:value-of select='./name'/></li>
-                                      <li>Номер: <xsl:value-of select='./number'/></li>
+                                      <li>Name: <xsl:value-of select='./name'/></li>
+                                      <li>Number: <xsl:value-of select='./number'/></li>
+                                      <li>Age: <xsl:value-of select='./age'/></li>
                                     </ul>
                                     <br/>
                                 </li>
@@ -45,6 +47,7 @@
                             </xsl:choose>
                           </xsl:for-each>
                         </ul>
+                        </div>
                     </tr>
                 </xsl:for-each>
                 <hr/>
