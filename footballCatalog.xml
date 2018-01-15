@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-	<!-- TODO - xsl can't match catalog element when it has attributes-->
-	<!-- <catalog xmlns="https://www.w3schools.com"  -->
-	<!-- xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" -->
-	<!-- xsi:schemaLocation="schema.xsd"> -->
-	<catalog>
+	<catalog xmlns="https://www.w3schools.com"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="schema.xsd">
 	  <leagues>
 		<league id="l1">Premier League</league>
 		<league id="l2">Primera División (La Liga)</league>
