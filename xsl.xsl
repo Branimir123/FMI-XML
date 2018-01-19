@@ -18,7 +18,7 @@
         <table>
             <xsl:for-each select="./leagues/league">
                 <xsl:variable name="league_id" select="@id"/>
-                <tr>
+                <tr class="league-wrapper">
                   <h2><xsl:value-of select="."/></h2>
                 </tr>
                 <xsl:for-each select="../../clubs/club/league[@league_id=$league_id]">
@@ -26,19 +26,20 @@
                         <div class="single-team">
                         <h4><xsl:value-of select='../name'/></h4>
                         <xsl:variable name="current_id" select='../@id'/>
-                          <!-- <img style="max-width: 200px; height:auto;" src="./images/{$current_id}"/> -->
+                            <img style="max-width: 200px; height:auto;" src="./images/{$current_id}.png"/>
                         <ul>
-                            <li>Founded: <xsl:value-of select='../year_established'/></li>
+                            <li class="founded"><em>Founded: <xsl:value-of select='../year_established'/></em></li>
+                            <li class="owner"><em>Owner: <xsl:value-of select='../owner'/></em></li>
                         </ul>
                         <xsl:variable name="player_ids" select='../@player_id'/>
                           <h4><small>Players:</small></h4>
-                          <ul>
+                          <ul class="players-wrapper">
                           <xsl:for-each select="../../../player">
                             <xsl:choose>
                               <xsl:when test="contains($player_ids, @id)">
                                 <li><xsl:value-of select='./type'/>
-                                    <ul>
-                                      <li>Name: <xsl:value-of select='./name'/></li>
+                                    <ul class="single-player">
+                                      <li>Name: <strong><xsl:value-of select='./name'/></strong></li>
                                       <li>Number: <xsl:value-of select='./number'/></li>
                                       <li>Age: <xsl:value-of select='./age'/></li>
                                     </ul>

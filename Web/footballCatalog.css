@@ -13,10 +13,16 @@ ul {
 }
 
 .single-team {
+    width: 29%;
     padding: 35px;
     background-color: rgba(33,33,33,0.1);
     margin-top: 10px;
     border: 1px solid black;
+}
+
+.players-wrapper{
+    border: 1px solid rgba(150,150,150, 0.3);
+    padding: 15px;
 }
 
 h2 {
