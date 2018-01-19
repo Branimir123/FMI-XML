@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<?xml-stylesheet type="text/xsl" href="xsl.xsl"?>
-	<catalog>
+	<catalog xsi:schemaLocation="schema.xsd">
 	  <leagues>
 		<league id="l1">Premier League</league>
 		<league id="l2">Primera División (La Liga)</league>
@@ -8,28 +8,28 @@
 	  </leagues>
 
 	  <clubs>
-		<club id="c1" player_id="p1 p2 p3 p4 p5">
+		<club id="c1" player_id="ch1 ch2 ch3 ch4 ch5">
 		  <name>Chelsea</name>
 		  <year_established>1905</year_established>
 		  <league league_id="l1">Premier League</league>
 		  <league_thophys>6</league_thophys>
 		  <owner>Roman Abramovich</owner>
 		</club>
-		<club id="c2" player_id="p6 p7 p8 p9 p10">
+		<club id="c2" player_id="m1 m2 m3 m4 m5">
 		  <name>Manchester United</name>
 		  <year_established>1878</year_established>
 		  <league league_id="l1">Premier League</league>
 		  <league_thophys>20</league_thophys>
 		  <owner>Manchester United plc</owner>
 		</club>
-		<club id="c3" player_id="p11 p12 p13 p14 p15">
+		<club id="c3" player_id="a1 a2 a3 a4 a5">
 		  <name>Arsenal</name>
 		  <year_established>1886</year_established>
 		  <league league_id="l1">Premier League</league>
 		  <league_thophys>13</league_thophys>
 		  <owner>Arsenal Holding plc</owner>
 		</club>
-		<club id="c4" player_id="p16 p17 p18 p19 p20">
+		<club id="c4" player_id="mc1 mc2 mc3 mc4 mc5">
 		  <name>Manchester City</name>
 		  <year_established>1880</year_established>
 		  <league league_id="l1">Premier League</league>
@@ -37,14 +37,14 @@
 		  <owner>Owner	City Football Group</owner>
 		</club>
 
-		<club id="c5" player_id="p21 p22 p23 p24 p25">
+		<club id="c5" player_id="b1 b2 b3 b4 b5">
 		  <name>Barcelona</name>
 		  <year_established>1899</year_established>
 		  <league league_id="l2">La Liga</league>
 		  <league_thophys>24</league_thophys>
 		  <owner>Registered association</owner>
 		</club>
-		<club id="c6" player_id="p26 p27 p28 p29 p30">
+		<club id="c6" player_id="r1 r2 r3 r4 r5">
 		  <name>Real Madrid</name>
 		  <year_established>1902</year_established>
 		  <league league_id="l2">La Liga</league>
@@ -52,14 +52,14 @@
 		  <owner>Registered association</owner>
 		</club>
 
-		<club id="c7" player_id="p31 p32 p33">
+		<club id="c7" player_id="cs1 cs2 cs3">
 		  <name>CSKA</name>
 		  <year_established>1948</year_established>
 		  <league league_id="l3">First Professional Football League</league>
 		  <league_thophys>31</league_thophys>
 		  <owner>Grisha Ganchev</owner>
 		</club>
-			<club id="c8" player_id="p34 p35 p36">
+			<club id="c8" player_id="l1 l2 l3">
 		  <name>Levski</name>
 		  <year_established>1914</year_established>
 		  <league league_id="l3">First Professional Football League</league>
@@ -69,31 +69,31 @@
 	  </clubs>
 	
 			<!-- Chelsea players-->
-			<player id="p1">
+			<player id="ch1">
 			  <name>David Luiz</name>
 			  <number>30</number>
 			  <club club_id="c1"></club>
 			  <age>30</age>
 			</player>
-			<player id="p2">
+			<player id="ch2">
 			  <name>Álvaro Morata</name>
 			  <number>9</number>
 			  <club club_id="c1"></club>
 			  <age>25</age>
 			</player>
-			<player id="p3">
+			<player id="ch3">
 			  <name>Eden Hazard</name>
 			  <number>10</number>
 			  <club club_id="c1"></club>
 			  <age>27</age>
 			</player>
-			<player id="p4">
+			<player id="ch4">
 			  <name>Thibaut Courtois</name>
 			  <number>13</number>
 			  <club club_id="c1"></club>
 			  <age>30</age>
 			</player>
-				<player id="p5">
+				<player id="ch5">
 			  <name>Pedro</name>
 			  <number>11</number>
 			  <club club_id="c1"></club>
@@ -101,31 +101,31 @@
 			</player>
 
 			<!-- Man United players-->
-				<player id="p6">
+				<player id="m1">
 			  <name>David de Gea</name>
 			  <number>1</number>
 			  <club club_id="c2"></club>
 			  <age>30</age>
 			</player>
-			<player id="p7">
+			<player id="m2">
 			  <name>Paul Pogba</name>
 			  <number>6</number>
 			  <club club_id="c2"></club>
 			  <age>23</age>
 			</player>
-			<player id="p8">
+			<player id="m3">
 			  <name>Juan Mata</name>
 			  <number>8</number>
 			  <club club_id="c2"></club>
 			  <age>29</age>
 			</player>
-			<player id="p9">
+			<player id="m4">
 			  <name>Zlatan Ibrahimović</name>
 			  <number>10</number>
 			  <club club_id="c2"></club>
 			  <age>36</age>
 			</player>
-				<player id="p10">
+				<player id="m5">
 			  <name>Anthony Martial</name>
 			  <number>11</number>
 			  <club club_id="c2"></club>
@@ -133,31 +133,31 @@
 			</player>
 
 			<!-- Arsenal players-->
-			<player id="p11">
+			<player id="a1">
 			  <name>Alexis Sánchez</name>
 			  <number>7</number>
 			  <club club_id="c3"></club>
 			  <age>29</age>
 			</player>
-			<player id="p12">
+			<player id="a2">
 			  <name>Aaron Ramsey</name>
 			  <number>8</number>
 			  <club club_id="c3"></club>
 			  <age>27</age>
 			</player>
-			<player id="p13">
+			<player id="a3">
 			  <name>Mesut Özil</name>
 			  <number>11</number>
 			  <club club_id="c3"></club>
 			  <age>29</age>
 			</player>
-			<player id="p14">
+			<player id="a4">
 			  <name>Theo Walcott</name>
 			  <number>14</number>
 			  <club club_id="c3"></club>
 			  <age>28</age>
 			</player>
-				<player id="p15">
+				<player id="a5">
 			  <name>Héctor Bellerín</name>
 			  <number>24</number>
 			  <club club_id="c3"></club>
@@ -165,31 +165,31 @@
 			</player>
 
 			<!-- Manchester City players-->
-			<player id="p16">
+			<player id="mc1">
 			  <name>Claudio Bravo</name>
 			  <number>1</number>
 			  <club club_id="c4"></club>
 			  <age>34</age>
 			</player>
-			<player id="p17">
+			<player id="mc2">
 			  <name>Raheem Sterling</name>
 			  <number>7</number>
 			  <club club_id="c4"></club>
 			  <age>23</age>
 			</player>
-			<player id="p18">
+			<player id="mc3">
 			  <name>Sergio Agüero</name>
 			  <number>10</number>
 			  <club club_id="c4"></club>
 			  <age>29</age>
 			</player>
-			<player id="p19">
+			<player id="mc4">
 			  <name>Kevin De Bruyne</name>
 			  <number>17</number>
 			  <club club_id="c4"></club>
 			  <age>26</age>
 			</player>
-				<player id="p20">
+				<player id="mc5">
 			  <name>David Silva</name>
 			  <number>21</number>
 			  <club club_id="c4"></club>
@@ -197,31 +197,31 @@
 			</player>
 
 			<!-- Barcelona players-->
-			<player id="p21">
+			<player id="b1">
 			  <name>Lionel Messi</name>
 			  <number>10</number>
 			  <club club_id="c5"></club>
 			  <age>30</age>
 			</player>
-			<player id="p22">
+			<player id="b2">
 			  <name>Andrés Iniesta</name>
 			  <number>8</number>
 			  <club club_id="c5"></club>
 			  <age>33</age>
 			</player>
-			<player id="p23">
+			<player id="b3">
 			  <name>Luis Suárez</name>
 			  <number>9</number>
 			  <club club_id="c5"></club>
 			  <age>30</age>
 			</player>
-			<player id="p24">
+			<player id="b4">
 			  <name>Gerard Piqu</name>
 			  <number>3</number>
 			  <club club_id="c5"></club>
 			  <age>30</age>
 			</player>
-				<player id="p25">
+				<player id="b5">
 			  <name>Sergio Busquets</name>
 			  <number>5</number>
 			  <club club_id="c5"></club>
@@ -229,31 +229,31 @@
 			</player>
 
 			<!-- Real Madrid players-->
-			<player id="p25">
+			<player id="r1">
 			  <name>Cristiano Ronaldo </name>
 			  <number>7</number>
 			  <club club_id="c6"></club>
 			  <age>32</age>
 			</player>
-			<player id="p27">
+			<player id="r2">
 			  <name>Karim Benzema</name>
 			  <number>9</number>
 			  <club club_id="c6"></club>
 			  <age>30</age>
 			</player>
-			<player id="p28">
+			<player id="r3">
 			  <name>Luka Modrić</name>
 			  <number>10</number>
 			  <club club_id="c6"></club>
 			  <age>32</age>
 			</player>
-			<player id="p29">
+			<player id="r4">
 			  <name>Marcelo</name>
 			  <number>12</number>
 			  <club club_id="c6"></club>
 			  <age>29</age>
 			</player>
-				<player id="p30">
+				<player id="r5">
 			  <name>Casemiro</name>
 			  <number>14</number>
 			  <club club_id="c6"></club>
@@ -261,19 +261,19 @@
 			</player>
 
 			<!-- CSKA players-->
-			<player id="p31">
+			<player id="cs1">
 			  <name>Fernando Karanga</name>
 			  <number>9</number>
 			  <club club_id="c7"></club>
 			  <age>26</age>
 			</player>
-			<player id="p32">
+			<player id="cs2">
 			  <name>Nikolay Bodurov</name>
 			  <number>5</number>
 			  <club club_id="c7"></club>
 			  <age>31</age>
 			</player>
-			<player id="p33">
+			<player id="cs3">
 			  <name>Kiril Despodov</name>
 			  <number>19</number>
 			  <club club_id="c7"></club>
@@ -281,19 +281,19 @@
 			</player>
 
 			<!-- Levski players-->
-			<player id="p34">
+			<player id="l1">
 			  <name>Junior Mapuku</name>
 			  <number>10</number>
 			  <club club_id="c7"></club>
 			  <age>28</age>
 			</player>
-			<player id="p35">
+			<player id="l2">
 			  <name>Jordi Gómez</name>
 			  <number>13</number>
 			  <club club_id="c7"></club>
 			  <age>32</age>
 			</player>
-			<player id="p36">
+			<player id="l3">
 			  <name>David Jablonský</name>
 			  <number>28</number>
 			  <club club_id="c7"></club>
