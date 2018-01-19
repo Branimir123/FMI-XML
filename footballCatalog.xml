@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-	<catalog xmlns="https://www.w3schools.com"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="schema.xsd">
+	<?xml-stylesheet type="text/xsl" href="xsl.xsl"?>
+	<catalog>
 	  <leagues>
 		<league id="l1">Premier League</league>
 		<league id="l2">Primera División (La Liga)</league>

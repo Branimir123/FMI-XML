@@ -4,6 +4,7 @@
     <xsl:template match="/">
         <html>
             <head>
+                <link rel="stylesheet" href="Web/footballCatalog.css" type="text/css"></link>
                 <title>Football teams</title>
             </head>
             <body>
